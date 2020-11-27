@@ -1,6 +1,3 @@
-function escribir() {
-    var a = 1
-
-    console.log("hello wowrld" + a);
-
-}
+document.querySelector('.menu-btn').addEventListener('click', () => {
+    document.querySelector('.nav-menu').classList.toggle('show');
+});
